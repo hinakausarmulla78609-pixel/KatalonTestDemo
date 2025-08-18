@@ -56,8 +56,8 @@ pipeline {
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
-                    reportDir: 'Reports/LoginDetails',   
-                    reportFiles: '**/*.html',
+                    reportDir: 'Reports',   
+                    reportFiles: '**/LoginDetails/**/*.html',
                     reportName: 'Katalon Test Report'
                 ])
             }
