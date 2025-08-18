@@ -53,7 +53,7 @@ pipeline {
             steps {
                 echo 'Generating Katalon Test Report...'
                 publishHTML(target: [
-                    allowMissing: true,
+                    allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
                     reportDir: 'Reports/LoginDetails',   
