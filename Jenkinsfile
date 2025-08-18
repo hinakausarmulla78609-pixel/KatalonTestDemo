@@ -57,7 +57,7 @@ pipeline {
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
                     reportDir: 'Reports/LoginDetails',   
-                    reportFiles: 'index.html',
+                    reportFiles: '**/*.html',
                     reportName: 'Katalon Test Report'
                 ])
             }
